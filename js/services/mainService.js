@@ -1,4 +1,16 @@
 angular.module('devmtnTravel').service('mainSrv', function(){
+
+	this.getTravelInfo = function () {
+		return travelInfo;
+
+    };
+	this.getPackageInfo = function() {
+		return packageInfo;
+	};
+
+
+
+
     this.travelInfo = [{
         country: 'United States',
         image: "../img/US.jpg",
